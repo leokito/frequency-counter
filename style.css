@@ -1,0 +1,125 @@
+body {
+    text-align: center;
+    background: rgb(199,255,236);
+    background: radial-gradient(circle, rgba(199,255,236,1) 0%, rgba(255,196,208,1) 100%);
+}
+#title {
+    font-family: 'Audiowide', cursive;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+#break {
+    display: none;
+}
+
+#result {
+    font-family: 'Concert One', cursive;
+    display: none;
+}
+
+#input {
+    font-family: 'Concert One', cursive;
+}
+
+textarea {
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 90%;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 80%;
+}
+#thanks {
+    display: none;
+}
+
+#lettersDiv {
+    background-color: mistyrose;
+    border-radius: 5px;
+    border: 1px dashed #0C0032;
+    margin-top: 5%;
+    padding: 2%;
+    display: none;
+}
+
+#wordsDiv {
+    background-color: #c7ffec;
+    border-radius: 5px;
+    border: 1px dashed #0C0032;
+    margin-top: 5%;
+    padding: 2%;
+    display: none;
+}
+#entrada {
+    text-align: center;
+}
+
+@media screen and (min-width: 681px) {
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    #break {
+        display: block;
+    }
+    textarea {
+        background-color: lightgray;
+        border-radius: 5px;
+        width: 50%;
+    }
+    
+    button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 30%;
+    }
+    #thanks {
+        display: none;
+    }
+    
+    #lettersDiv {
+        background-color: mistyrose;
+        border-radius: 5px;
+        border: 1px dashed #0C0032;
+        margin-top: 5%;
+        padding: 2%;
+        display: none;
+    }
+    
+    #wordsDiv {
+        background-color: #c7ffec;
+        border-radius: 5px;
+        border: 1px dashed #0C0032;
+        margin-top: 5%;
+        padding: 2%;
+        display: none;
+    }
+    #entrada {
+        text-align: center;
+    }
+}
+
+    
